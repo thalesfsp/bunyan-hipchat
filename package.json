@@ -1,6 +1,6 @@
 {
   "name": "bunyan-hipchat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bunyan plugin for HipChat",
   "author": "Thales Pinheiro <thalesfsp@gmail.com>",
   "contributors": [],
@@ -20,6 +20,7 @@
     "url": "git://github.com:thalesfsp/bunyan-hipchat.git"
   },
   "scripts": {
+    "example": "DEBUG=* node example/index.js",
     "docs": "node_modules/.bin/jsdoc -r lib/ -P \"package.json\" -d \"docs\"",
     "analyze": "node_modules/.bin/plato -r -d report -l .jshintrc lib",
     "lint": "node_modules/.bin/jshint -c .jshintrc lib/",
@@ -34,6 +35,7 @@
     "lodash.merge": "^4.0.1"
   },
   "devDependencies": {
+    "bunyan": "^1.5.1",
     "jscs": "^2.8.0",
     "jsdoc": "^3.4.0",
     "jshint": "^2.9.1",

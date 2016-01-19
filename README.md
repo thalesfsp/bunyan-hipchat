@@ -41,6 +41,14 @@ logger.error('error');
 logger.fatal('fatal');
 ```
 
+## Example
+
+_Note: Don't forget to fill with a valid token and roomId_
+
+```bash
+TOKEN="" ROOMID="" npm run example
+```
+
 ## Contributors
 
 This project was created by Thales Pinheiro ([@thalesfsp](https://github.com/thalesfsp))
