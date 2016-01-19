@@ -59,4 +59,5 @@ This project was created by Thales Pinheiro ([@thalesfsp](https://github.com/tha
 - Features:
   - Add tests
   - Move to ES6
+  - Use [standard](https://www.npmjs.com/package/standard)
   - Allow selection between api V1/V2
