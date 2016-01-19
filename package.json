@@ -1,6 +1,6 @@
 {
   "name": "bunyan-hipchat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Bunyan plugin for HipChat",
   "author": "Thales Pinheiro <thalesfsp@gmail.com>",
   "contributors": [],
