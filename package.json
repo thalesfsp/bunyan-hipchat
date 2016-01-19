@@ -1,0 +1,36 @@
+{
+  "name": "bunyan-hipchat",
+  "version": "0.0.1",
+  "description": "Bunyan plugin for HipChat",
+  "author": "Thales Pinheiro <thalesfsp@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "keywords": [
+    "bunyan",
+    "plugin",
+    "hipchat",
+    "stream"
+  ],
+  "homepage": "https://github.com/thalesfsp/bunyan-hipchat",
+  "bugs": {
+    "url": "https://github.com/thalesfsp/bunyan-hipchat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:thalesfsp/bunyan-hipchat.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "jscs": "^2.4.0",
+    "jsdoc": "^3.3.3",
+    "jshint": "^2.9.1-rc1",
+    "mocha": "^2.3.3",
+    "plato": "^1.5.0"
+  }
+}

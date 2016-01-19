@@ -1,0 +1,24 @@
+{
+  "asi": false,
+  "forin": false,
+  "freeze": true,
+  "funcscope": true,
+  "globals": {
+    "window": false,
+    "document": false
+  },
+  "indent": 2,
+  "latedef": "nofunc",
+  "laxcomma": true,
+  "maxcomplexity": 11,
+  "maxdepth": 3,
+  "maxparams": 5,
+  "maxstatements": 20,
+  "mocha": true,
+  "newcap": true,
+  "noarg": true,
+  "node": true,
+  "nonew": true,
+  "undef": true,
+  "unused": true
+}
