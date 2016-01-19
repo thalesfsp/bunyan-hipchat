@@ -44,3 +44,10 @@ logger.fatal('fatal');
 ## Contributors
 
 This project was created by Thales Pinheiro ([@thalesfsp](https://github.com/thalesfsp))
+
+## Roadmap
+
+- Next version: 2.0
+- Features:
+  - Add tests
+  - Move to ES6
