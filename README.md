@@ -8,22 +8,37 @@ Stream to write [bunyan](https://github.com/trentm/node-bunyan) logs to [HipChat
 ## Usage
 
 ```js
+var bunyan = require('bunyan');
+var BunyanHipchat = require('bunyan-hipchat');
+
 var token = '1234512345123451234512345123451234512345'
 var roomID = '12345';
 
-var bunyan = require('bunyan');
-var hipchatStream = require('bunyan-elasticsearch');
+// Add HipChat plugin/stream to Bunyan
 var logger = bunyan.createLogger({
-  name: 'Test', // logger name
-  streams: [{
-    level: 'trace', // Minimum log level to log
-    stream: process.stdout // Normal stdout/console.log
-  }, {
-    level: 'trace', // Minimum log level to log
-    stream: new hipchatStream(token, room),
-    type: 'raw'
-  }]
+  name: 'API',
+  streams: [
+    {
+      level: 'trace',
+      stream: process.stdout
+    }, {
+      level: 'trace',
+      stream: new BunyanHipchat({
+        token: token,
+        roomId: roomId
+      }),
+      type: 'raw'
+    }
+  ]
 });
+
+// Log different levels
+logger.trace('trace');
+logger.debug('debug');
+logger.info('info');
+logger.warn('warn');
+logger.error('error');
+logger.fatal('fatal');
 ```
 
 ## Contributors
