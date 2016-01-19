@@ -1,6 +1,6 @@
 {
   "name": "bunyan-hipchat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bunyan plugin for HipChat",
   "author": "Thales Pinheiro <thalesfsp@gmail.com>",
   "contributors": [],
@@ -24,7 +24,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-
+    "lodash.merge": "^4.0.1"
   },
   "devDependencies": {
     "jscs": "^2.4.0",
