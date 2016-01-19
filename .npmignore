@@ -2,4 +2,8 @@
 .jshint
 .npmignore
 .gitignore
-example
+example/
+docs/
+report/
+README.md
+LICENSE
