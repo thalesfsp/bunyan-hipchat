@@ -51,3 +51,4 @@ This project was created by Thales Pinheiro ([@thalesfsp](https://github.com/tha
 - Features:
   - Add tests
   - Move to ES6
+  - Allow selection between api V1/V2
